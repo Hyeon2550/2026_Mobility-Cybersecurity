@@ -4,6 +4,10 @@
 
 이 프로젝트는 실제 공격 기능이나 악성 동작을 포함하지 않고, 차량 내부 네트워크, OTA 업데이트, Connected Car 보안, 공격-방어 흐름, 보안 관제 콘솔을 시각적으로 보여주는 발표형 대시보드로 구성되어 있습니다.
 
+## Preview
+
+![Dashboard Preview](./docs/dashboard-home.png)
+
 ## Overview
 
 - React + Vite 기반 단일 페이지 웹 프로젝트
