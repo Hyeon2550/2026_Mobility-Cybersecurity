@@ -96,11 +96,50 @@ a {
   text-decoration: none;
 }
 
-.hyundai-logo {
-  width: 168px;
-  height: auto;
-  color: #e7edf4;
+.hmobility-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   flex: 0 0 auto;
+}
+
+.hmobility-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1671c5, #0e4e91);
+  color: #f7fbff;
+  font-family: "Bahnschrift", "Segoe UI Semibold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  box-shadow: 0 10px 24px rgba(15, 93, 169, 0.22);
+}
+
+.hmobility-wordmark {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.hmobility-main {
+  color: #edf4fb;
+  font-family: "Bahnschrift", "Segoe UI Semibold", sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.hmobility-sub {
+  margin-top: 3px;
+  color: #8fbef0;
+  font-family: "Bahnschrift", "Segoe UI Semibold", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
 }
 
 .brand-kicker,
@@ -165,8 +204,8 @@ strong {
 }
 
 h1 {
-  font-size: clamp(2.7rem, 5vw, 5rem);
-  line-height: 1.04;
+  font-size: clamp(2.35rem, 4.35vw, 4.35rem);
+  line-height: 1.1;
   letter-spacing: -0.05em;
 }
 
@@ -787,8 +826,8 @@ h3 {
     padding-top: 28px;
   }
 
-  .hyundai-logo {
-    width: 144px;
+  .hmobility-main {
+    font-size: 1rem;
   }
 }
 
@@ -802,7 +841,7 @@ h3 {
   }
 
   h1 {
-    font-size: 2.24rem;
+    font-size: 2rem;
   }
 
   .panel,
@@ -811,8 +850,19 @@ h3 {
     border-radius: 22px;
   }
 
-  .hyundai-logo {
-    width: 124px;
+  .hmobility-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    font-size: 1.12rem;
+  }
+
+  .hmobility-main {
+    font-size: 0.94rem;
+  }
+
+  .hmobility-sub {
+    font-size: 0.62rem;
   }
 
   .brand {

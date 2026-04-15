@@ -71,30 +71,13 @@ function randomBetween(min, max) {
 
 function HyundaiLogo() {
   return (
-    <svg
-      aria-label="Hyundai logo"
-      className="hyundai-logo"
-      viewBox="0 0 276 64"
-      role="img"
-    >
-      <g fill="none" stroke="currentColor" strokeWidth="4.6">
-        <ellipse cx="40" cy="32" rx="32" ry="20" transform="skewX(-18)" />
-        <path d="M20 18v28" />
-        <path d="M47 18v28" />
-        <path d="M20 32h27" />
-      </g>
-      <text
-        x="92"
-        y="42"
-        fill="currentColor"
-        fontFamily="Arial, Helvetica, sans-serif"
-        fontSize="30"
-        fontWeight="700"
-        letterSpacing="2.2"
-      >
-        HYUNDAI
-      </text>
-    </svg>
+    <div className="hmobility-logo" aria-label="H Mobility Class inspired wordmark" role="img">
+      <span className="hmobility-badge">H</span>
+      <span className="hmobility-wordmark">
+        <span className="hmobility-main">MOBILITY</span>
+        <span className="hmobility-sub">CYBER CLASS</span>
+      </span>
+    </div>
   );
 }
 
@@ -209,8 +192,8 @@ function App() {
         <a className="brand" href="#overview">
           <HyundaiLogo />
           <div>
-            <p className="brand-kicker">HYUNDAI INSPIRED DEFENSIVE DEMO</p>
-            <strong className="brand-text">Cyber Defense Experience</strong>
+            <p className="brand-kicker">EDUCATIONAL DEFENSIVE EXPERIENCE</p>
+            <strong className="brand-text">Mobility Cyber Defense Lab</strong>
           </div>
         </a>
 
